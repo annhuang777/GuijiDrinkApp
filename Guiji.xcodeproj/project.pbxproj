@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B108EBC3280B0F30006C2001 /* getOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B108EBC2280B0F30006C2001 /* getOrderViewController.swift */; };
+		B13944D32808487A00F3E24D /* bannerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13944D22808487A00F3E24D /* bannerData.swift */; };
+		B13944D7280862B800F3E24D /* bannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13944D6280862B800F3E24D /* bannerCollectionViewCell.swift */; };
+		B17A2E1C281C0C4F005E705B /* editingOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A2E1B281C0C4F005E705B /* editingOrderViewController.swift */; };
+		B18A6F3727EF1EBB009DB041 /* genkai-mincho.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B18A6F3527EF1E32009DB041 /* genkai-mincho.ttf */; };
+		B18A6F3827EF1EBC009DB041 /* genkai-mincho.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B18A6F3527EF1E32009DB041 /* genkai-mincho.ttf */; };
+		B18A6F3927EF1EBD009DB041 /* genkai-mincho.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B18A6F3527EF1E32009DB041 /* genkai-mincho.ttf */; };
+		B18D7E5F28016FAA00F98668 /* menu1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D7E5E28016FAA00F98668 /* menu1TableViewController.swift */; };
+		B18D7E6128016FB500F98668 /* menu2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D7E6028016FB500F98668 /* menu2TableViewController.swift */; };
+		B18D7E6328016FC100F98668 /* menu3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D7E6228016FC100F98668 /* menu3TableViewController.swift */; };
+		B18D7E6528016FCD00F98668 /* menu4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D7E6428016FCD00F98668 /* menu4TableViewController.swift */; };
+		B18D7E6928016FF000F98668 /* menu2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D7E6828016FF000F98668 /* menu2TableViewCell.swift */; };
+		B18D7E6B28016FFB00F98668 /* menu3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D7E6A28016FFB00F98668 /* menu3TableViewCell.swift */; };
+		B18D7E6D2801700500F98668 /* menu4TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D7E6C2801700500F98668 /* menu4TableViewCell.swift */; };
+		B18D7E702801CB1300F98668 /* menu1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D7E6F2801CB1300F98668 /* menu1TableViewCell.swift */; };
+		B1941F7827F9F1940027400B /* menuResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1941F7727F9F1940027400B /* menuResponse.swift */; };
+		B1941F7927F9F1940027400B /* menuResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1941F7727F9F1940027400B /* menuResponse.swift */; };
+		B1941F7A27F9F1940027400B /* menuResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1941F7727F9F1940027400B /* menuResponse.swift */; };
+		B1941F7D27F9F8C90027400B /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1941F7C27F9F8C90027400B /* menuViewController.swift */; };
+		B1941F8528000E3F0027400B /* orderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1941F8428000E3F0027400B /* orderResponse.swift */; };
 		B1CCA1A927ECC7FB0028DBEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCA1A827ECC7FB0028DBEA /* AppDelegate.swift */; };
 		B1CCA1AB27ECC7FB0028DBEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCA1AA27ECC7FB0028DBEA /* SceneDelegate.swift */; };
-		B1CCA1AD27ECC7FB0028DBEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCA1AC27ECC7FB0028DBEA /* ViewController.swift */; };
 		B1CCA1B027ECC7FB0028DBEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CCA1AE27ECC7FB0028DBEA /* Main.storyboard */; };
 		B1CCA1B227ECC8030028DBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CCA1B127ECC8030028DBEA /* Assets.xcassets */; };
 		B1CCA1B527ECC8030028DBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CCA1B327ECC8030028DBEA /* LaunchScreen.storyboard */; };
 		B1CCA1C027ECC8030028DBEA /* GuijiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCA1BF27ECC8030028DBEA /* GuijiTests.swift */; };
 		B1CCA1CA27ECC8030028DBEA /* GuijiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCA1C927ECC8030028DBEA /* GuijiUITests.swift */; };
 		B1CCA1CC27ECC8030028DBEA /* GuijiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCA1CB27ECC8030028DBEA /* GuijiUITestsLaunchTests.swift */; };
+		B1CCA21927EE04BC0028DBEA /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCA21827EE04BC0028DBEA /* homePageViewController.swift */; };
+		B1E549812816D15100CDF924 /* cartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E549802816D15100CDF924 /* cartTableViewCell.swift */; };
+		B1E549852816F6B900CDF924 /* cartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E549842816F6B900CDF924 /* cartTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +58,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B108EBC2280B0F30006C2001 /* getOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getOrderViewController.swift; sourceTree = "<group>"; };
+		B13944D22808487A00F3E24D /* bannerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerData.swift; sourceTree = "<group>"; };
+		B13944D6280862B800F3E24D /* bannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		B17A2E1B281C0C4F005E705B /* editingOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editingOrderViewController.swift; sourceTree = "<group>"; };
+		B18A6F3527EF1E32009DB041 /* genkai-mincho.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "genkai-mincho.ttf"; sourceTree = "<group>"; };
+		B18D7E5E28016FAA00F98668 /* menu1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu1TableViewController.swift; sourceTree = "<group>"; };
+		B18D7E6028016FB500F98668 /* menu2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu2TableViewController.swift; sourceTree = "<group>"; };
+		B18D7E6228016FC100F98668 /* menu3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu3TableViewController.swift; sourceTree = "<group>"; };
+		B18D7E6428016FCD00F98668 /* menu4TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu4TableViewController.swift; sourceTree = "<group>"; };
+		B18D7E6828016FF000F98668 /* menu2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu2TableViewCell.swift; sourceTree = "<group>"; };
+		B18D7E6A28016FFB00F98668 /* menu3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu3TableViewCell.swift; sourceTree = "<group>"; };
+		B18D7E6C2801700500F98668 /* menu4TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu4TableViewCell.swift; sourceTree = "<group>"; };
+		B18D7E6F2801CB1300F98668 /* menu1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu1TableViewCell.swift; sourceTree = "<group>"; };
+		B1941F7727F9F1940027400B /* menuResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuResponse.swift; sourceTree = "<group>"; };
+		B1941F7C27F9F8C90027400B /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		B1941F8428000E3F0027400B /* orderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderResponse.swift; sourceTree = "<group>"; };
 		B1CCA1A527ECC7FB0028DBEA /* Guiji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guiji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CCA1A827ECC7FB0028DBEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1CCA1AA27ECC7FB0028DBEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1CCA1AC27ECC7FB0028DBEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1CCA1AF27ECC7FB0028DBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1CCA1B127ECC8030028DBEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1CCA1B427ECC8030028DBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +86,9 @@
 		B1CCA1C527ECC8030028DBEA /* GuijiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuijiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CCA1C927ECC8030028DBEA /* GuijiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuijiUITests.swift; sourceTree = "<group>"; };
 		B1CCA1CB27ECC8030028DBEA /* GuijiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuijiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1CCA21827EE04BC0028DBEA /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
+		B1E549802816D15100CDF924 /* cartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartTableViewCell.swift; sourceTree = "<group>"; };
+		B1E549842816F6B900CDF924 /* cartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +116,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B18A6F3627EF1E37009DB041 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B18A6F3527EF1E32009DB041 /* genkai-mincho.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		B18D7E6E2801700E00F98668 /* menuGroupe */ = {
+			isa = PBXGroup;
+			children = (
+				B18D7E5E28016FAA00F98668 /* menu1TableViewController.swift */,
+				B18D7E6028016FB500F98668 /* menu2TableViewController.swift */,
+				B18D7E6228016FC100F98668 /* menu3TableViewController.swift */,
+				B18D7E6428016FCD00F98668 /* menu4TableViewController.swift */,
+				B18D7E6F2801CB1300F98668 /* menu1TableViewCell.swift */,
+				B18D7E6828016FF000F98668 /* menu2TableViewCell.swift */,
+				B18D7E6A28016FFB00F98668 /* menu3TableViewCell.swift */,
+				B18D7E6C2801700500F98668 /* menu4TableViewCell.swift */,
+			);
+			path = menuGroupe;
+			sourceTree = "<group>";
+		};
+		B1941F7B27F9F8550027400B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B13944D22808487A00F3E24D /* bannerData.swift */,
+				B1941F8428000E3F0027400B /* orderResponse.swift */,
+				B1941F7727F9F1940027400B /* menuResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1941F8828006CE20027400B /* other */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCA1AE27ECC7FB0028DBEA /* Main.storyboard */,
+				B1CCA1B127ECC8030028DBEA /* Assets.xcassets */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		B1C55451281D38D400668394 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1E549802816D15100CDF924 /* cartTableViewCell.swift */,
+				B13944D6280862B800F3E24D /* bannerCollectionViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		B1CCA19C27ECC7FB0028DBEA = {
 			isa = PBXGroup;
 			children = (
+				B1941F8828006CE20027400B /* other */,
+				B1941F7B27F9F8550027400B /* Model */,
+				B1C55451281D38D400668394 /* view */,
+				B18D7E6E2801700E00F98668 /* menuGroupe */,
+				B1CCA21A27EE127A0028DBEA /* controller */,
 				B1CCA1A727ECC7FB0028DBEA /* Guiji */,
 				B1CCA1BE27ECC8030028DBEA /* GuijiTests */,
+				B18A6F3627EF1E37009DB041 /* Font */,
 				B1CCA1C827ECC8030028DBEA /* GuijiUITests */,
 				B1CCA1A627ECC7FB0028DBEA /* Products */,
 			);
@@ -101,9 +198,6 @@
 			children = (
 				B1CCA1A827ECC7FB0028DBEA /* AppDelegate.swift */,
 				B1CCA1AA27ECC7FB0028DBEA /* SceneDelegate.swift */,
-				B1CCA1AC27ECC7FB0028DBEA /* ViewController.swift */,
-				B1CCA1AE27ECC7FB0028DBEA /* Main.storyboard */,
-				B1CCA1B127ECC8030028DBEA /* Assets.xcassets */,
 				B1CCA1B327ECC8030028DBEA /* LaunchScreen.storyboard */,
 				B1CCA1B627ECC8030028DBEA /* Info.plist */,
 			);
@@ -125,6 +219,18 @@
 				B1CCA1CB27ECC8030028DBEA /* GuijiUITestsLaunchTests.swift */,
 			);
 			path = GuijiUITests;
+			sourceTree = "<group>";
+		};
+		B1CCA21A27EE127A0028DBEA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B17A2E1B281C0C4F005E705B /* editingOrderViewController.swift */,
+				B1E549842816F6B900CDF924 /* cartTableViewController.swift */,
+				B1941F7C27F9F8C90027400B /* menuViewController.swift */,
+				B1CCA21827EE04BC0028DBEA /* homePageViewController.swift */,
+				B108EBC2280B0F30006C2001 /* getOrderViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +340,7 @@
 				B1CCA1B527ECC8030028DBEA /* LaunchScreen.storyboard in Resources */,
 				B1CCA1B227ECC8030028DBEA /* Assets.xcassets in Resources */,
 				B1CCA1B027ECC7FB0028DBEA /* Main.storyboard in Resources */,
+				B18A6F3727EF1EBB009DB041 /* genkai-mincho.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18A6F3827EF1EBC009DB041 /* genkai-mincho.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18A6F3927EF1EBD009DB041 /* genkai-mincho.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +367,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1CCA1AD27ECC7FB0028DBEA /* ViewController.swift in Sources */,
+				B1CCA21927EE04BC0028DBEA /* homePageViewController.swift in Sources */,
+				B18D7E6928016FF000F98668 /* menu2TableViewCell.swift in Sources */,
+				B1941F7827F9F1940027400B /* menuResponse.swift in Sources */,
+				B13944D32808487A00F3E24D /* bannerData.swift in Sources */,
+				B18D7E702801CB1300F98668 /* menu1TableViewCell.swift in Sources */,
+				B1E549852816F6B900CDF924 /* cartTableViewController.swift in Sources */,
+				B1E549812816D15100CDF924 /* cartTableViewCell.swift in Sources */,
+				B1941F8528000E3F0027400B /* orderResponse.swift in Sources */,
 				B1CCA1A927ECC7FB0028DBEA /* AppDelegate.swift in Sources */,
+				B18D7E6B28016FFB00F98668 /* menu3TableViewCell.swift in Sources */,
+				B18D7E6328016FC100F98668 /* menu3TableViewController.swift in Sources */,
+				B18D7E6D2801700500F98668 /* menu4TableViewCell.swift in Sources */,
+				B17A2E1C281C0C4F005E705B /* editingOrderViewController.swift in Sources */,
+				B13944D7280862B800F3E24D /* bannerCollectionViewCell.swift in Sources */,
 				B1CCA1AB27ECC7FB0028DBEA /* SceneDelegate.swift in Sources */,
+				B18D7E5F28016FAA00F98668 /* menu1TableViewController.swift in Sources */,
+				B1941F7D27F9F8C90027400B /* menuViewController.swift in Sources */,
+				B18D7E6128016FB500F98668 /* menu2TableViewController.swift in Sources */,
+				B108EBC3280B0F30006C2001 /* getOrderViewController.swift in Sources */,
+				B18D7E6528016FCD00F98668 /* menu4TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1CCA1C027ECC8030028DBEA /* GuijiTests.swift in Sources */,
+				B1941F7927F9F1940027400B /* menuResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1CCA1CA27ECC8030028DBEA /* GuijiUITests.swift in Sources */,
+				B1941F7A27F9F1940027400B /* menuResponse.swift in Sources */,
 				B1CCA1CC27ECC8030028DBEA /* GuijiUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -447,6 +575,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +604,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
