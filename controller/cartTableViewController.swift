@@ -163,7 +163,7 @@ class cartTableViewController: UITableViewController {
 
                         self.logger.log("fetchOrderData")
 
-                        self.orderRecords.remove(at: indexPath.row)
+                        
 
                     }
 
